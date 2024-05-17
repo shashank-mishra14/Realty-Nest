@@ -1,7 +1,7 @@
-import  ethers  from 'ethers';
+import  {ethers}  from 'ethers';
 import { useEffect, useState } from 'react';
 import close from '../assets/close.svg';
-
+import "./home.css"
 const Home = ({ home, provider, account, escrow, togglePop }) => {
     const [hasBought, setHasBought] = useState(false)
     const [hasLended, setHasLended] = useState(false)
